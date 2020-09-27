@@ -20,9 +20,13 @@ class RoomProvider extends Component {
     return formatedItems;
   };
 
+  getRoom = (slug) => {
+    return this.state.rooms.find((item) => item.slug === slug);
+  };
+
   render() {
     return (
-      <RoomContext.Provider value={{ ...this.state }}>
+      <RoomContext.Provider value={{ ...this.state, getRoom: this.getRoom }}>
         {this.props.children}
       </RoomContext.Provider>
     );
