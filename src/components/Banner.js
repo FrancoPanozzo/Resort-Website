@@ -5,11 +5,9 @@ export default class Banner extends Component {
     return (
       <div className="banner">
         <h1>{this.props.title}</h1>
-        <div></div>
         <p>{this.props.subtitle}</p>
         {this.props.children}
       </div>
     );
   }
 }
-

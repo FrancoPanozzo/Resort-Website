@@ -10,10 +10,7 @@ export default class Home extends Component {
     return (
       <>
         <Hero>
-          <Banner
-            title="Luxururious rooms"
-            subtitle="Deluxe rooms starting at $299"
-          >
+          <Banner title="Luxurious rooms" subtitle="the best view in town">
             <Link to="/rooms" className="btn-primary">
               our rooms
             </Link>
