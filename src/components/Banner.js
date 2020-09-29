@@ -12,3 +12,4 @@ export default class Banner extends Component {
     );
   }
 }
+

@@ -10,10 +10,10 @@
   --mainBlack: #222;
   --mainGrey: #ececec;
   --darkGrey: #cfcfcf;
-  --mainTransition: all 0.3s linear;
+  --mainTransition: all 0.25s linear;
   --mainSpacing: 3px;
-  --lightShadow: 2px 5px 3px 0px rgba(0, 0, 0, 0.5);
-  --darkShadow: 4px 10px 5px 0px rgba(0, 0, 0, 0.5);
+  --lightShadow: 1px 2px 3px 0px rgba(0, 0, 0, 0.3);
+  --darkShadow: 3px 4px 5px 0px rgba(0, 0, 0, 0.4);
 }
 /* globals */
 body {
